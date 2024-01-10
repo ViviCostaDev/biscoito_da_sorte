@@ -1,0 +1,166 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+::-webkit-scrollbar {
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Biscoito', sans-serif;
+}
+
+#space {
+    margin: 0rem auto 0rem auto;
+    display: grid;
+    justify-content: center;
+
+}
+
+h1 {
+    margin: 4rem auto 0rem auto;
+    font-family: fantasy;
+    color: darkorange;
+    font-size: 3rem;
+    text-align: center;
+    animation-name: h1;
+    animation-timing-function: step-start;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+p,
+strong {
+    margin: 1rem auto 0rem auto;
+    font-size: 1rem;
+    font-family: 'Biscoito', sans-serif;
+    font-style: initial;
+    text-align: center;
+    color: darkcyan;
+    font-size: 2rem;
+
+}
+
+h2 {
+    margin: -13rem auto 0rem auto;
+    font-size: 1rem;
+    font-family: 'Biscoito', sans-serif;
+    font-style: initial;
+    text-align: center;
+    color: #570a0a;
+    font-size: 2rem;
+    display: none;
+}
+
+p {
+    animation-name: p;
+    animation-timing-function: step-start;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+#package {
+    width: 15.5rem;
+    margin: -25% auto 0% auto;
+    display: block;
+}
+
+#biscoito {
+    width: 500px;
+    margin: -60% auto 0% auto;
+    display: none;
+    
+}
+
+#imgBiscoito {
+    width: 250px;
+    background-color: #fff;
+    opacity: .7;
+    border-radius: 10px;
+    height: 6vh;
+    margin: -82% auto 0% auto;
+    display: none;
+    font-size: 1rem;
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+    color: #630f0f;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+
+
+#btnPlay {
+    border-radius: 30px;
+ 
+    background-color: darkorange;
+    color: darkcyan;
+    font-size: 2rem;
+    font-family: 'Biscoito', sans-serif;
+    margin-top: -15%;
+    display: block;
+}
+
+
+#playReset {
+    width: 250px;
+    height: 6vh;
+    border-radius: 30px;
+       background-color: darkorange;
+    color: darkcyan;
+    font-size: 2rem;
+    font-family: 'Biscoito', sans-serif;
+    margin-top: -20%;
+    margin-left: 20%;
+    display: none;
+}
+
+@keyframes h1 {
+    0% {
+        transform: scale(1%);
+    }
+
+    50% {
+        transform: scale(200%)
+    }
+
+    100% {
+        transform: scale(90%)
+    }
+
+}
+
+@keyframes p {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: scale(1%)
+    }
+
+    75% {
+        transform: scale(100%)
+    }
+
+    100% {
+        transform: translateX(20vw -20vw);
+    }
+
+}
+
+@media only screen and (min-device-width: 20rem) and (max-device-width: 30rem) {
+    h1 {
+        margin: 4rem auto 0rem auto;
+        scale: 100%;
+        font-size: 1rem;
+    }
+
+    img {
+        margin: -150px auto 0% auto;
+    }
+}
